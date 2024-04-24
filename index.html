@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentoria - Trabalhando com forms</title>
+</head>
+<body>
+  <header>
+    <h1>Mentoria</h1>
+    <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+  </header>
+  <form>
+    <fieldset>
+      <legend>Informações pessoais</legend>
+      <div class="input-wrapper">
+        <label for="mentory-name">Nome</label>
+        <input type="text" name="mentory-name">
+      </div>
+      <div class="input-wrapper">
+        <label for="mentory-surname">Sobrenome</label>
+        <input type="text" name="mentory-surname">
+      </div>
+      <div class="input-wrapper">
+        <label for="mentory-mail">Email <span>(digite um email válido)</span></label>
+        <input type="email" name="mentory-mail">
+      </div>
+      <div class="input-wrapper">
+        <label for="mentory-pass">Senha <span>(mínimo de 6 caracteres)</span></label>
+        <input type="password" name="mentory-pass">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Informações do mentor</legend>
+      <div class="input-wrapper">
+        <label for="mentory-mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+        <input type="text" name="mentory-mentor">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Seus horários disponíveis</legend>
+      <h2>Primeira mentoria</h2>
+      <div class="input-wrapper">
+        <label for="mentory-first-date">Data <span>(DD/MM/AAAA)</span></label>
+        <input type="date" name="mentory-first-date">
+      </div>
+      <div class="input-wrapper">
+        <label for="mentory-first-time">Das</label>
+        <input type="time" name="mentory-first-begin">
+      </div>
+      <div class="input-wrapper">
+        <label for="mentory-first-time">Até</label>
+        <input type="time" name="mentory-first-end">
+      </div>
+      <h2>Segunda Mentoria</h2>
+      <div class="input-wrapper">
+        <label for="mentory-second-date">Data <span>(DD/MM/AAAA)</span></label>
+        <input type="date" name="mentory-second-date">
+      </div>
+      <div class="input-wrapper">
+        <label for="mentory-first-time">Das</label>
+        <input type="time" name="mentory-second-begin">
+      </div>
+      <div class="input-wrapper">
+        <label for="mentory-first-time">Até</label>
+        <input type="time" name="mentory-second-end">
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>
