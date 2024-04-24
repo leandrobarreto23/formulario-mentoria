@@ -118,6 +118,7 @@ fieldset {
   }
 
   & input:focus {
+    border: none;
     outline: .2rem solid var(--gray-400);
   }
 
@@ -161,6 +162,14 @@ fieldset {
   & button:hover {
     opacity: 0.9;
   }
+}
+
+input:invalid {
+  border: 1px solid var(--pink-400);
+}
+
+.col-2 {
+  margin-bottom: 1.6rem;
 }
 
 @media (min-width: 600px) {
